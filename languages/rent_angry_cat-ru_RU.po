@@ -1,0 +1,316 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rent Private Car\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-06 16:23+0000\n"
+"PO-Revision-Date: 2021-09-22 09:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: rent-private-car"
+
+#: templates/dscc_items.php:85
+msgid "accuracy:"
+msgstr "точность:"
+
+#: class-rent_angry_cat.php:144
+msgid "Autoplay slider:"
+msgstr "Автостарт слайдера:"
+
+#: templates/dscc_items.php:17
+msgid "City search result"
+msgstr "Результат поиска по городу"
+
+#: templates/dscc_gettemplatepage.php:59
+msgid "Clear"
+msgstr "Очистить"
+
+#: class-rent_angry_cat.php:355
+msgid "Clear all rented date"
+msgstr "Очистить даты аренды"
+
+#: class-rent_angry_cat.php:353
+#, php-format
+msgid "Clear all rented date. Count: %s [Days]"
+msgstr "Очистить все даты аренды. Кол-во: %s [Дней]"
+
+#: class-rent_angry_cat.php:347
+msgid "Clear all rented time"
+msgstr "Очистить время аренды"
+
+#: class-rent_angry_cat.php:345
+#, php-format
+msgid "Clear all rented time. Count: %s [Hours]"
+msgstr "Очистить все время аренды. Кол-во: %s [Часов]"
+
+#: class-rent_angry_cat.php:312
+msgid "Dayly"
+msgstr "Посуточная"
+
+#: class-rent_angry_cat.php:714
+msgid "Dayly Rent added to cart."
+msgstr "Посуточная аренда в корзине."
+
+#: class-rent_angry_cat.php:368 class-rent_angry_cat.php:371
+msgid "Debug date array"
+msgstr "Отладочный массив дат"
+
+#: class-rent_angry_cat.php:360 class-rent_angry_cat.php:363
+msgid "Debug time array"
+msgstr "Отладочный массив часов"
+
+#: class-rent_angry_cat.php:537 class-rent_angry_cat.php:580
+msgid "Error day"
+msgstr "Ошибочный день"
+
+#: class-rent_angry_cat.php:555 class-rent_angry_cat.php:596
+msgid "Error hour"
+msgstr "Ошибочный час"
+
+#: class-rent_angry_cat.php:669
+msgid "Error! Product not exists."
+msgstr "Ошибка! Товар не существует."
+
+#: class-rent_angry_cat.php:680
+msgid "Error! Rate not dayly."
+msgstr "Ошибка! Аренда не посуточная."
+
+#: class-rent_angry_cat.php:688
+msgid "Error! Rate not hourly."
+msgstr "Ощибка! Аренда не почасовая."
+
+#: class-rent_angry_cat.php:119
+msgid "Filter type (cities,radius,both):"
+msgstr "Тип фильтра (города,радиус,всё вместе)"
+
+#: class-rent_angry_cat.php:152
+msgid "Fullscreen:"
+msgstr "На весь экран:"
+
+#: class-rent_angry_cat.php:131
+msgid "Gallery options:"
+msgstr "Опции галлереи:"
+
+#: class-rent_angry_cat.php:95
+msgid "Google API key for MAP:"
+msgstr "GOOGLE IPI ключь:"
+
+#: class-rent_angry_cat.php:168
+msgid "Hash:"
+msgstr "Хэш"
+
+#: class-rent_angry_cat.php:310
+msgid "Hoursly full"
+msgstr "Почасовая полная"
+
+#: class-rent_angry_cat.php:702
+msgid "Hoursly Rent added to cart."
+msgstr "Почасовая аренда в корзине."
+
+#: class-rent_angry_cat.php:311
+msgid "Hoursly short"
+msgstr "Почасовая короткая"
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/superpuperlesha/#content-plugins"
+msgstr "https://profiles.wordpress.org/superpuperlesha/#content-plugins"
+
+#: templates/dscc_items.php:85
+msgid "lat:"
+msgstr "lat:"
+
+#: templates/dscc_items.php:85
+msgid "lng:"
+msgstr "lng:"
+
+#: templates/dscc_items.php:82
+msgid "My location!"
+msgstr "Моё местоположение!"
+
+#: templates/dscc_items.php:18
+msgid "My radius result"
+msgstr "Результат в моём радиусе"
+
+#: templates/dscc_ttable.php:25
+msgid "Next"
+msgstr "след"
+
+#: templates/dscc_items.php:72
+msgid "Not found."
+msgstr "Не найдено."
+
+#: templates/dscc_ttable.php:32
+msgid "Order"
+msgstr "Заказать"
+
+#: class-rent_angry_cat.php:136
+msgid "Pager:"
+msgstr "Пагинация:"
+
+#: rent_angry_cat.php:37
+msgid "Plugin name compatibility error! (Rent angry cats)"
+msgstr "Несовместимость имен плагина! (Rent angry cats)"
+
+#: class-rent_angry_cat.php:290 class-rent_angry_cat.php:293
+msgid "Position Latitude"
+msgstr "Позиция Latitude"
+
+#: class-rent_angry_cat.php:298 class-rent_angry_cat.php:301
+msgid "Position Longitude"
+msgstr "Позиция Longitude"
+
+#: templates/dscc_ttable.php:26
+msgid "Prev"
+msgstr "пред"
+
+#: class-rent_angry_cat.php:282 class-rent_angry_cat.php:285
+msgid "Price per hour"
+msgstr "Цена за час"
+
+#: templates/dscc_items.php:85
+msgid "radius:"
+msgstr "радиус:"
+
+#: class-rent_angry_cat.php:330 class-rent_angry_cat.php:333
+msgid "Rate and time, H"
+msgstr "Конец аренды, час"
+
+#: class-rent_angry_cat.php:317 class-rent_angry_cat.php:320
+msgid "Rate start time, H"
+msgstr "Начало анерды, час"
+
+#: class-rent_angry_cat.php:306 class-rent_angry_cat.php:307
+msgid "Rate Table style"
+msgstr "Тип таблицы аренды"
+
+#: class-rent_angry_cat.php:621
+msgid "Rent"
+msgstr "Аренда"
+
+#: class-rent_angry_cat.php:16
+msgid "Rent angry cat"
+msgstr "Rent angry cat"
+
+#. Name of the plugin
+#, fuzzy
+#| msgid "Rent of angry cats"
+msgid "Rent angry cats"
+msgstr "Аренда злых котов"
+
+#: class-rent_angry_cat.php:532 class-rent_angry_cat.php:578
+#: class-rent_angry_cat.php:622
+msgid "Rent day"
+msgstr "Аренда посуточная"
+
+#: class-rent_angry_cat.php:550 class-rent_angry_cat.php:594
+msgid "Rent hour"
+msgstr "Часы аренды"
+
+#: class-rent_angry_cat.php:214 class-rent_angry_cat.php:215
+#: class-rent_angry_cat.php:216
+msgid "Rent in cities"
+msgstr "Аренда в городах"
+
+#: class-rent_angry_cat.php:247 class-rent_angry_cat.php:257
+msgid "Rental product"
+msgstr "Арендный товар"
+
+#: class-rent_angry_cat.php:184
+msgid "Rotate slide:"
+msgstr "Повернуть слайд:"
+
+#: class-rent_angry_cat.php:200
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: templates/dscc_gettemplatepage.php:32
+msgid "Search by City"
+msgstr "Поиск по городу"
+
+#: templates/dscc_gettemplatepage.php:41
+msgid "Search by Radius"
+msgstr "Поиск по радиусу"
+
+#: class-rent_angry_cat.php:103
+#, fuzzy
+#| msgid "Search items to Page:"
+msgid "Search items per page:"
+msgstr "Записей в поиске:"
+
+#: class-rent_angry_cat.php:111
+msgid "Search radius default:"
+msgstr "Поисковый радиус по умолчанию:"
+
+#: templates/dscc_gettemplatepage.php:47
+msgid "Select date"
+msgstr "Выберите дату"
+
+#: templates/dscc_ttable.php:31
+msgid "Select Date/Time!"
+msgstr "Выберите дату/время!"
+
+#: class-rent_angry_cat.php:48
+msgid "Settings"
+msgstr "Настройки"
+
+#: class-rent_angry_cat.php:90
+msgid "Setup options:"
+msgstr "Настройки опций:"
+
+#: class-rent_angry_cat.php:176
+msgid "Share image:"
+msgstr "Шарить картинку:"
+
+#: class-rent_angry_cat.php:123
+msgid "Show both"
+msgstr "Показать оба"
+
+#: class-rent_angry_cat.php:124
+#, fuzzy
+#| msgid "Show cityes"
+msgid "Show cities"
+msgstr "Показать города"
+
+#: class-rent_angry_cat.php:125
+msgid "Show radius"
+msgstr "Показать радиус"
+
+#: class-rent_angry_cat.php:192
+msgid "Show thumbnails bottom:"
+msgstr "Тамбнейлы снизу:"
+
+#. Author of the plugin
+msgid "superpuperlesha"
+msgstr "superpuperlesha"
+
+#: templates/dscc_gettemplatepage.php:58
+msgid "Today"
+msgstr "Сегодня"
+
+#. Description of the plugin
+msgid ""
+"WooCommerce based rental plugin. Daily and hourly rent of cars, apartments, "
+"things, animals."
+msgstr ""
+"Плагин аренды на основе WooCommerce. Посуточная и почасовая аренда "
+"автомобилей, квартир, вещей, животных."
+
+#: rent_angry_cat.php:93
+msgid "Woocommerce plugin is required to use the plugin [Rent angry cats] !"
+msgstr ""
+"Плагин Woocommerce необходим для использования плагина [Аренда злых котов]!"
+
+#: class-rent_angry_cat.php:854
+msgid "You location not detected!"
+msgstr "Ваше рассположение не определено!"
+
+#: class-rent_angry_cat.php:160
+msgid "Zoom:"
+msgstr "Зум:"

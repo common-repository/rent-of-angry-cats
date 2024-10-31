@@ -1,0 +1,157 @@
+/* Top filter */
+.dscc_filter_box{
+    width: 1280px;
+    margin: 0px auto 0px auto;
+}
+.dscc_filter_box .dscc_filter_box_table{
+
+}
+.dscc_filter_box .dscc_filter_box_table .dscc_filter_box_input{
+    width: 200px;
+    height: 30px;
+    line-height: 10px;
+    box-sizing: border-box;
+}
+/* Body */
+.dscc_container{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1280px;
+    margin: 0px auto 0px auto;
+}
+.dscc_container svg{
+    margin: 30px auto 30px auto;
+    width: 100px;
+    height: auto;
+}
+.dscc_container .dscc_filter_res1, .dscc_container .dscc_filter_res2{
+
+}
+/* Left */
+.dscc_container .dscc_filter_res1{
+    width: 70%;
+}
+.dscc_container .dscc_filter_res1 table tr td{
+    /*line-height: 0px;*/
+}
+/* Right */
+.dscc_container .dscc_filter_res2{
+    width: 30%;
+}
+/* MAP */
+.dscc_container .dscc_filter_res2 #dscc_filter_map{
+    width: 100%;
+    height: 450px;
+}
+.dscc_container .dscc_filter_res1 .dscc_item_box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 15px;
+}
+.dscc_container .dscc_filter_res1 .dscc_item_box .dscc_itemcar{
+    width: 25%;
+}
+.dscc_container .dscc_filter_res1 .dscc_item_box .dscc_itemcar img{
+    max-width: 100%;
+    height: auto;
+	cursor: pointer;
+}
+/* Time Table */
+.dscc_container .dscc_filter_res1 .dscc_item_box .dscc_itemcartable{
+    width: 75%;
+    position: relative;
+    padding: 30px 0px 0px 15px;
+}
+.dscc_container .dscc_filter_res1 .dscc_item_box .dscc_itemcartable svg{
+    display: block;
+    margin: 30px auto 30px auto;
+    width: 70px;
+    height: auto;
+}
+.dscc_container .dscc_filter_res1 .dscc_item_box .dscc_itemcartable .car_shortcontent{
+    margin-top: 15px;
+}
+.dscc_container .dscc_filter_res1 .dscc_item_box .dscc_itemcartable .dscc_itemcartable_timehide{
+    display: none;
+}
+.dscc_container .dscc_filter_res1 .dscc_item_box .dscc_itemcartable .dscc_itemcartable_order,
+.dscc_container .dscc_filter_res1 .dscc_item_box .dscc_itemcartable .dscc_itemcartable_next,
+.dscc_container .dscc_filter_res1 .dscc_item_box .dscc_itemcartable .dscc_itemcartable_prev{
+    position: absolute;
+    top: 5px;
+}
+.dscc_container .dscc_filter_res1 .dscc_item_box .dscc_itemcartable .dscc_itemcartable_next{
+    left: 80px;
+}
+.dscc_container .dscc_filter_res1 .dscc_item_box .dscc_itemcartable .dscc_itemcartable_prev{
+    left: 15px;
+}
+.dscc_container .dscc_filter_res1 .dscc_item_box .dscc_itemcartable .dscc_itemcartable_order{
+    right: 15px;
+}
+.dscc_container .dscc_filter_res1 .dscc_item_box .dscc_itemcartable .dscc_bg_none{
+    background-color: #DDDDDD;
+}
+.dscc_container .dscc_filter_res1 .dscc_item_box .dscc_itemcartable .dscc_bg_yes{
+    background-color: #eeffee;
+}
+
+/* paging */
+.dscc_container .dscc_filter_res1 .dscc_filter_page_box{
+    display: flex;
+    justify-content: center;
+}
+.dscc_container .dscc_filter_res1 .dscc_filter_page_box .dscc_filter_page_prev,
+.dscc_container .dscc_filter_res1 .dscc_filter_page_box .dscc_filter_page_oll,
+.dscc_container .dscc_filter_res1 .dscc_filter_page_box .dscc_filter_page_next{
+    cursor: pointer;
+    padding: 3px 3px 3px 3px;
+    margin: 0px 5px 0px 5px;
+    border: #00a32a solid 1px;
+}
+.dscc_container .dscc_filter_res1 .dscc_filter_page_box .dscc_filter_page_nextprevnoactive{
+    display: none;
+}
+#dscc_filter_preloader{
+    display: none;
+}
+
+@media screen and (max-width: 1280px){
+    .dscc_filter_box, .dscc_container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .dscc_container .dscc_filter_res1 .dscc_item_box{
+        flex-direction: column;
+    }
+    .dscc_container .dscc_filter_res1 .dscc_item_box .dscc_itemcar,
+    .dscc_container .dscc_filter_res1 .dscc_item_box .dscc_itemcartable{
+        width: 100%;
+        padding: 30px 0px 0px 0px;
+    }
+    .dscc_container .dscc_filter_res1 .dscc_item_box .dscc_itemcar{
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .dscc_container{
+        flex-direction: column;
+    }
+    .dscc_container .dscc_filter_res1,
+    .dscc_container .dscc_filter_res2{
+        width: 100%;
+    }
+    .dscc_container .dscc_filter_res2{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .dscc_filter_box .dscc_filter_box_table td{
+        display: block;
+    }
+}
